@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components{
+    .apply-button{
+        @apply absolute bottom-0 right-1 bg-blue-500 h-8 w-8 rounded-full text-white text-xl font-semibold font-mono hover:bg-blue-800 border-2 border-white;
+    }
+}
